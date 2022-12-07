@@ -1,0 +1,54 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: monospace;
+  text-align: center;
+  }
+  
+  h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+  
+  #btc-price, #eth-price {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #333333;
+  border-radius: 5px;
+  }
+
+  #btc-price-24, #eth-price-24 {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 5px;
+    }
+  
+  #btc-value, #eth-value {
+  font-size: 18px;
+  font-weight: bold;
+  }
+
+  #btc-value-24, #eth-value-24 {
+    font-size: 18px;
+    font-weight: bold;
+    }
+  
+  @media only screen and (max-width: 600px) {
+  h1 {
+  font-size: 24px;
+  }
+  #btc-price, #eth-price {
+  padding: 5px;
+  }
+  #btc-value, #eth-value {
+  font-size: 14px;
+  }
+  #btc-value-24, #eth-value-24 {
+    font-size: 14px;
+    }
+  #btc-price-24, #eth-price-24 {
+    padding: 5px;
+      }
+  }
